@@ -657,8 +657,8 @@ func (dht *IpfsDHT) rtPeerLoop() {
 // and probe it to make sure it answers DHT queries as expected. If
 // it fails to answer, it isn't added to the routingTable.
 func (dht *IpfsDHT) peerFound(p peer.ID) {
-	fmt.Printf("hahahahahahahahahahaha\n")
-	return
+	//fmt.Printf("hahahahahahahahahahaha\n")
+	//return
 	//fmt.Printf("7asdasdasdasdasdasdasdsad\n")
 	// if the peer is already in the routing table or the appropriate bucket is
 	// already full, don't try to add the new peer.ID
